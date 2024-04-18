@@ -1,0 +1,5 @@
+Fieldset é uma tag para agrupar inputs;
+E legend é como uma label, que descreve os inputs agrupados;
+Utilizamos esta tag para conectar dois ou mais inputs que tenham o mesmo sentido;
+Por exemplo: nome e sobrenome;
+Vamos ver na prática!
