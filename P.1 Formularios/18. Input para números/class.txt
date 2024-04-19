@@ -1,0 +1,4 @@
+Input para números
+Configurando o type para number temos um input que só aceita dígitos;
+Este input possui setas, que nos permite alterar o número através de cliques;
+Vamos ver na prática!

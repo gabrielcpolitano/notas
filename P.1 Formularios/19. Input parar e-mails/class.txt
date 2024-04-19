@@ -1,0 +1,5 @@
+Input para e-mails
+O input de e-mail é similar ao de texto;
+Porém quando enviamos o formulário temos uma validação;
+Que checa se o texto tem o padrão de um e-mail, verificando a @, por exemplo:
+Vamos ver na prática!

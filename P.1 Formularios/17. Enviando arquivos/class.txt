@@ -1,0 +1,5 @@
+Input para arquivos
+O input de arquivos pode ser criado com o type igual a file;
+Assim podemos enviar um arquivo ao servidor;
+Por exemplo: imagens ou pdfs;
+Vamos ver na prática!
