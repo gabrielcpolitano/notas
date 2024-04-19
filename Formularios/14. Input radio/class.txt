@@ -1,4 +1,0 @@
-Este input é utilizado para selecionar apenas uma opção de várias possibilidades;
-Por exemplo: O modelo do carro que estamos comprando;
-Não podemos escolher dois, então há a necessidade da decisão entre uma das opções;
-Vamos ver na prática!

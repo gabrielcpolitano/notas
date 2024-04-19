@@ -1,4 +1,0 @@
-Se nós estamo sesperando uma senha do usuário, podemos utilizar a tag input;
-Porém no atributo type colocaremos password:
-E então o texto passa a ser exibido com *, para mascarar os dígitos;
-Vamos ver na prática!

@@ -1,5 +1,0 @@
-Datalist é como um select, porém com um autocomplete;
-Podemos pesquisar por possíveis valores para preencher o input;
-Ou selecionar alguma opção por meio de uma lista;
-As opções são linkadas por um atributo chamado list;
-Vamos ver na prática!
