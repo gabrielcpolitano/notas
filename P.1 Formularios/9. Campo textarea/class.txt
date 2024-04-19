@@ -1,0 +1,5 @@
+A tag textarea é semelhante ao input text;
+Podemos utilizamos para textos maiores;
+Por exemplo: A bio do Instagram;
+Isso nos permite uma área maior para digitar e verificar o texto que digitamos;
+Vamos ver na prática!
