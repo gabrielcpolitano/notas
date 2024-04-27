@@ -1,5 +1,0 @@
-O atributo value
-Com o value podemos definir um valor ao input alvo;
-Como se o usuário já tivesse preenchido algo;
-Muito utilizado quando temos um valor padrão;
-Vamos ver na prática!

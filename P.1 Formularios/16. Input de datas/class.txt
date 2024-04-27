@@ -1,5 +1,0 @@
-Input de data
-O input do tipo date é utilizado para selecionar uma data;
-Temos um calendário que nos auxilia para datas passadas ou futuras;
-Podemos também preencher o valor digitando;
-Vamos ver na prática!

@@ -1,4 +1,0 @@
-Podemos reiniciar todos os campos do form;
-Isso é feito através de um input do tipo reset;
-Ele é um botão, que ao ser clicado limpa o form;
-Vamos ver na prática!
