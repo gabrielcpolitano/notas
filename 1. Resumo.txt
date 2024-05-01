@@ -1,0 +1,25 @@
+
+Resumo Técnico do Curso de Desenvolvimento Web
+
+1. Introdução:
+- Estudar CSS, HTML e JavaScript.
+- Realizar 20 projetos.
+- Ganhar experiência profissional.
+- Criar um portfólio atraente.
+- Preparação para frameworks e bibliotecas.
+
+2. Como tirar o melhor proveito deste curso:
+- Baixar o repositório: https://github.com/matheusbattisti/projetos_javascript
+- Acesso a imagens e materiais auxiliares para um aprendizado mais linear.
+
+3. Repositório do Curso:
+- Repositório do curso disponível no GitHub: https://github.com/matheusbattisti/projetos_javascript
+
+4. Networking:
+- Participar do servidor Discord: Link de Convite: https://discord.gg/Veq4mvsWwk
+
+5. Indicações de Livros:
+- JavaScript: O Guia Definitivo
+- Lógica de Programação e Algoritmos com JavaScript
+- Estruturas de Dados e Algoritmos com JavaScript
+- 200 Exercícios de JavaScript: Fortaleça suas habilidades com desafios
