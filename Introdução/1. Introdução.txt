@@ -1,0 +1,30 @@
+
+Resumo da Formação Front-End:
+
+- Objetivo: Fornecer conhecimento para se tornar um desenvolvedor front-end.
+
+- Conteúdo:
+  - Cursos de HTML, CSS, JavaScript e React.
+  - Imersão em TypeScript.
+  - Mais de 20 projetos distribuídos nas tecnologias.
+
+- Estrutura do Curso:
+  - Gradualmente progride em dificuldade.
+  - Projetado para ser seguido em uma sequência específica para melhor aprendizado.
+  - Suporte para responder dúvidas e ajudar na resolução de problemas.
+
+- Comunidade e Networking:
+  - Comunidade de alunos para troca de ideias.
+  - Oportunidade de networking para facilitar a busca por emprego.
+
+- Atualizações:
+  - Atualizações constantes para adicionar novo conteúdo.
+
+- Instrutor:
+  - Matheus Batista.
+  - Mais de 100 mil alunos na plataforma e uma alta pontuação nos cursos.
+  - Instrutor parceiro da Udemy e oferece cursos para empresas de tecnologia.
+
+- Convidado:
+  - Conhecer mais sobre a formação.
+  - Seguir o curso para aprender sobre o mundo do front-end.

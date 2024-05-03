@@ -1,7 +1,0 @@
-JavaScript: O Guia Definitivo
-
-Lógica de Programação e Algoritmos com JavaScript
-
-Estruturas de Dados e Algoritmos com JavaScript
-
-200 Exercícios de JavaScript: Fortaleça suas habilidades com desafios]
