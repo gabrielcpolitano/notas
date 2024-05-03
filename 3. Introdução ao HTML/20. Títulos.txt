@@ -1,0 +1,9 @@
+-- Os TÍTULOS SÃO CONHECIDOS COMO HEADINGS;
+-- Geralmente sempre estará no inicil de uma sessão;
+-- O nome da tag é h*, onde * pode ser um valor de 1 a 6;
+-- O maior título é o h1, e também é o mais importante, colocamos apenas um por página;
+-- A escolhas dos h* deve estar relacionada ao propósito de nossa página;
+
+
+-- Cria heading nível 1: Sou mais importante
+-- Cria heading nível 3: Sou menos importante

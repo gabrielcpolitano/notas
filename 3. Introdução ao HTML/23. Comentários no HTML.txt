@@ -1,0 +1,6 @@
+<-- -->
+-- Qualquer um pode ler os comentários;
+-- Pode ser usado para separar seções do site;
+
+
+-- Crie um comentário;

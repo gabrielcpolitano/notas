@@ -1,0 +1,9 @@
+● Nós criamos um arquivo com HTML, o navegador tem ferramentas para
+ler, entender e executar este tipo de arquivo;
+● Ele coloca tamanhos diferentes para elementos diferentes, e os posiciona
+na página;
+● Isso acontece porque os navegadores vêm pré-configurados para este fim;
+● Vamos inspecionar o código que criamos no navegador!
+
+
+Verificar o Código, no navegar o CSS analisar. dO EXEMPLO 1

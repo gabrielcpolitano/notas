@@ -1,0 +1,16 @@
+
+Resumo da Introdução ao CSS:
+
+- O que é CSS:
+  - CSS é usado para estilizar sites, proporcionando design e acessibilidade.
+  - HTML e CSS são usados juntos na maioria dos casos.
+
+- Características do CSS:
+  - Integra-se facilmente com HTML.
+  - Regras de CSS são aplicadas aos elementos HTML.
+  - Usado para adicionar cores, ajustar tamanhos de fontes e estilizar elementos.
+
+- Demonstrando CSS na Prática:
+  - Ferramentas de desenvolvimento do navegador ajudam a visualizar e editar o CSS de qualquer site.
+  - Exemplos de como o CSS altera estilos como cores e tamanhos de fontes.
+  - Ferramentas são essenciais para programadores, permitindo experimentação e inspeção rápida de estilos.

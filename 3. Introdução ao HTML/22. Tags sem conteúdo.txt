@@ -1,0 +1,5 @@
+-- Elas possui funcionalidades, como por exemplo <br> que quebras as linhas;
+-- <hr> uma linha de divisória 
+
+
+Utilize o <br> e o <hr>

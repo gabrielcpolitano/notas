@@ -1,0 +1,4 @@
+● Primeiramente precisamos criar um arquivo com a extensão .html;
+● Podemos abrir o arquivo no navegador, sugiro o Chrome;
+● Neste arquivo podemos escrever código HTML ou simplesmente texto;
+● Vamos criar um e ver os resultados no navegador!
