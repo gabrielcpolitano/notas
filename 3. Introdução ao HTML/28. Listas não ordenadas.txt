@@ -1,0 +1,7 @@
+-- Listas são importantes para muitos fins nos sites;
+-- Podemos até criar um menu a partir de uma lista;
+-- As listas não ordenadas são criadas pela tag <ul>;
+-- Cada item da lista é repesentado pela tag <li>;
+
+Prática:
+Cria a tag <ul> para representar que é uma lista não ordenada e a tag <li> para representar cada itens da lista, coloque os atributos de Deus.
