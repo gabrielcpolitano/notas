@@ -1,0 +1,8 @@
+-- A tag <div><divisão>;
+-- O principal propósito é: encapsular elementos que estão conectados entre si, criando divisões para o nosso site;
+
+
+Prática:
+-- Cria uma divisão usando div;
+-- Coloque dentro headen nível 2;
+-- Coloque um parágrafo;

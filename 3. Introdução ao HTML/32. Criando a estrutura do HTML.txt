@@ -1,0 +1,4 @@
+Cria uma estrutura HTML somente usando !
+
+Prática
+-- Use esse atallho
