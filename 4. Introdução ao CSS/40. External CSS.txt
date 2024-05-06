@@ -1,0 +1,12 @@
+-- Precisa criar arquivo.css e lincar o html com esse arquivo.
+
+Prática:
+-- Cria uma pasta css;
+-- Cria um arquivo css;
+-- Coloque na pasta;
+-- Lincar com html;
+-- Cria h3 
+-- h3 estilização;
+-- color
+-- body estilização;
+-- preenchimento-baixo;

@@ -1,0 +1,4 @@
+-- São atributos de tags do HTML, mas estão diretamente relacionados ao CSS;
+-- Usando eles para específicas elementos;
+-- ID é único por página;
+-- Class pode se repetir;

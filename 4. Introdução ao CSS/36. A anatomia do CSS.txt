@@ -1,0 +1,4 @@
+-- Com CSS aplicamos CSS a um elemento da nossa página html;
+-- Propriadades no CSS = nome que se da para as mudanças;
+
+Nome da propriedade: valor;

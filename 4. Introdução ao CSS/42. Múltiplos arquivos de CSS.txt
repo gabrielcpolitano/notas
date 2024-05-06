@@ -1,0 +1,8 @@
+-- Um html pode tranquilamente ter mais que 1 arquivo importante.
+
+Prática:
+-- Cria uma lista;
+-- Cria um css só para lista;
+-- Lincar o CSS;
+-- Borda da lista
+-- Cor do elementos
