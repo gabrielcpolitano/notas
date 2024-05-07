@@ -5,3 +5,25 @@ body {
 h3 {
     color: red;
 }
+
+.paragrafo {
+    background: black;
+    color: aquamarine;
+}
+
+#souID {
+    background-color: purple;
+    color: yellow;
+}
+
+h3 {
+    border-bottom: 0.2rem solid darkblue;
+}
+
+#h3ID {
+    border-bottom: 0.2rem solid blue;
+}
+
+.h3CLASS {
+    border-bottom: 0.2rem solid darkmagenta;
+}

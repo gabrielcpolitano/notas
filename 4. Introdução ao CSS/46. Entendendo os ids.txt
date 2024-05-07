@@ -1,0 +1,6 @@
+Mesmo que classes mais só pode ter 1
+
+Prática:
+-- Cria um h1;
+-- Cria um id;
+-- Estiliza esse id;

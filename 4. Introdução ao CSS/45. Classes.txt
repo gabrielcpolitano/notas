@@ -1,0 +1,6 @@
+-- As classes são inseridas atrás de um atributo de HTML
+
+Prática:
+-- Cria três p;
+-- Coloca uma classe neles;
+-- Estilise a classe;
