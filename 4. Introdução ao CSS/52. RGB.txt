@@ -1,0 +1,8 @@
+RGB: Red, Green, Blue;
+-- Para cada vai de 0 - 255;
+-- 0 mais escuro;
+-- 255 mais claro;
+
+Prática:
+-- Cria elemento;
+-- Estilizar com RGB

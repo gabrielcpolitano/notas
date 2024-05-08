@@ -1,0 +1,7 @@
+RGBa = Red, Green, Blue, alpha.
+Alpha = opacidade;
+Alpha = 0 a 1;
+
+Prática;
+-- Crie elemento;
+-- Estilize com RGBa;
