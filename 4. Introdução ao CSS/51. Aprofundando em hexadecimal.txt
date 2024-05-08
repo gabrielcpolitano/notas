@@ -1,0 +1,6 @@
+#FFFFFF = #FFF
+#112233 = #123
+
+Prática:
+-- Criar elemento
+-- Estilizar comas duas técnicas
