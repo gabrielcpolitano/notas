@@ -27,3 +27,11 @@ h3 {
 .h3CLASS {
     border-bottom: 0.2rem solid darkmagenta;
 }
+
+.color_latter{
+    color: blue;
+}
+
+.color_hex{
+    color: #9d8e7d
+}
