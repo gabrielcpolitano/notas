@@ -1,0 +1,8 @@
+Neste texto, aprendemos sobre como alterar a opacidade e a cor de fundo de elementos usando CSS. Também vimos como isso afeta a visibilidade do conteúdo dentro desses elementos.
+
+Destaques
+Podemos alterar a opacidade de uma cor de fundo usando a propriedade background-color com a função rgba().
+
+Ao alterar a opacidade de um elemento, também afetamos a opacidade dos elementos dentro dele.
+
+É possível utilizar a opacidade para mudar o estilo de um elemento com base na sua visibilidade.
