@@ -52,3 +52,19 @@ h3 {
     background-color: rgba(25, 0, 255, 0.1);
     color: rgba(0, 0, 0, 1);
 }
+
+.hsl {
+    background: hsl(150deg 75% 25%);
+    background: hsl(150 75 25);
+}
+
+p.opacidade {
+    background-color: rgba(222, 120, 150, 0.5);
+}
+
+.img {
+    background-image: url('/img/apple.png');
+    background-position: center;
+    min-height: 200px;
+    max-width: 200px;
+}
