@@ -1,8 +1,0 @@
--- Utilizamos os parágrafos para inserir textos maiores;
--- A tag é <p>
--- Cada <p> começa em uma nova linha, é um comportamento de todas as tags de bloco;
-
-
-
--- Cria um paragrafo: Agradecendo a Deus por tudo;
--- Cria outro paragrafo: Fazendo um pedido para Deus;

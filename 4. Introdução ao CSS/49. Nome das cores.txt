@@ -1,5 +1,0 @@
--- Aplicar cores através do seu nome;
-
-Prática:
--- Cria um elemento;
--- Muda sua cor, usando nome de cor;

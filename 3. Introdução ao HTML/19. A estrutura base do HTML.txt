@@ -1,8 +1,0 @@
--- Todo projeto HTML tem uma estrutura base
--- DOCTYPE: esta tag declara a versão do HTML
--- html: Esta tag envolve todo o código de HTML
--- head: Metadados
--- body: Elementos visíveis
-
--- Cria uma estrutura base do html 
--- Coloca um titulo na cabeça

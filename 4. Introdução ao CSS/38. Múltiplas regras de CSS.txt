@@ -1,8 +1,0 @@
--- Nós podemos adicionar várias regras de CSS;
-
-Prática:
--- Criar h1;
--- Colocar CSS inline;
--- Color
--- Borda
--- Tamanho

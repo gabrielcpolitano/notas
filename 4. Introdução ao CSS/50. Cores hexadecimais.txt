@@ -1,8 +1,0 @@
--- 0 a 9 e A a F;
--- 0 é o mais escuro e F o mais claro;
--- preta: #000;
--- branca: #FFF;
-
-Prática:
--- Cria um elemento
--- Estiliza com hex

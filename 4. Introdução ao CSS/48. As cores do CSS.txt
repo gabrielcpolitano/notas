@@ -1,3 +1,0 @@
-RGB: Red, Green e Blue;
-Hexadecimal: letra e números;
-E muitos outros não tão utilizados;

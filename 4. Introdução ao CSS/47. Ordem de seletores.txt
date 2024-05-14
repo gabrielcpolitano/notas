@@ -1,7 +1,0 @@
-ID > CLASS > SELETOR DE TAG
-
-Prática:
--- Cria três h3;
--- Um com class;
--- Outro com id;
--- Outro com nada;

@@ -1,6 +1,0 @@
--- Nas tags de <img> temos um atributo chamado alt;
--- Obrigadorio pois é o texto alternativo se a imagem não aparecer. 
-
-Prática:
--- Coloque outra imagem na pasta;
--- Coloque o atributo alt em todas imagens do site;

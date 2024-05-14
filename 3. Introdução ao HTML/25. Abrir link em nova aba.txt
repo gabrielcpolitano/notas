@@ -1,5 +1,0 @@
--- Com um atributo podemos fazer o link abrir em uma nova aba;
--- Utilizamos o atributo target com o valor _blank;
-
-
--- Cria outro link usando a tag <a> e atributo href e ustilize o atributo alvo juntamento com _palido 

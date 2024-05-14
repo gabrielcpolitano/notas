@@ -1,9 +1,0 @@
-HSL is an acronym that stands for Hue, Saturation, and Lightness:
---It is an approach less used in color projects.
---It is possible to define color using HSL, with values from 0 to 205 for saturation and luminosity.
---You can create color variations by changing the saturation and luminosity values.
-
-Emphasis:
-HSL is a way of defining colors using matrix, saturation and luminosity.
-You can easily create color variations using HSL.
-You can create color variations by adjusting the saturation and luminosity values.

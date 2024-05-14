@@ -1,9 +1,0 @@
-O CSS interno é uma técnica melhor que o inline, vamos colocar todos os estiloz na tag head;
-
-Prática:
--- Adiconar estilo interno
--- Criar p
--- Estilizar p
--- Cor
--- Font-size
--- fundo 

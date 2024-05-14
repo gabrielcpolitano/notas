@@ -1,5 +1,0 @@
--- O CSS é carregado a partir de uma ordem
--- Ordem: inline > internal = external > padrão do navegador;
-
-
--- Soprescrever com inline style 2 vezes 

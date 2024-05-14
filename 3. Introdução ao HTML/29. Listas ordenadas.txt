@@ -1,5 +1,0 @@
--- tag <ol> representa que sera uma lista ordenada;
--- tag <li> para cada intem da lista;
-
-Prática:
--- Criar uma lista ordenada com o porques, amo Deus.
