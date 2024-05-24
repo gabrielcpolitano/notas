@@ -1,44 +1,50 @@
-<!-- CHATGPT: {Colocar o texto} depois digitar -> Coloca esse texto dentro desse modelo: {Colocar modelo}-->
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-        <style>
-            body, ol, ul, h1, h2, h3, h4, p {
-                font-family: 'Poppins', sans-serif;
-            }
-    
-            h2, h4 {
-                text-align: center;   
-            }
-    
-            img.day {
-                width: 60%;
-                margin: auto;
-                display: block;
-            }
-        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body, ol, ul, h1, h2, h3, h4, p {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h2, h4 {
+            text-align: center;   
+        }
+
+        img.day {
+            width: 60%;
+            margin: auto;
+            display: block;
+        }
+
+        .language-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
     <img class="day" alt="Day-11" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBfA989MjCDB7DcwVdbPiGmc_dnbNDzgIKw_yQqPp3_7x1UMhr_AFo85mMyKlR7MUYX3jmEn9wZ9pfb1YXlHYDDSpNclEDoo5YiJoiYOGOf3e73K4XgEdyslShqg0vYBXp-wzl_R3J7MG-hRMXRvczaJBFK5Oa6g_XIs9qYTPq6xg55rm-PXx90vS6/s1600/10.jpg"/>
-    <h4>Doutores da Programação, sejam bem-vindos ao Day 10</h4>
-    <h2>📱Doutor(a) do Desenvolvimento</h2>
+    <h4 id="welcome">Doutores da Programação, sejam bem-vindos ao Day 10</h4>
+    <h2 id="title">📱Doutor(a) do Desenvolvimento</h2>
 
-    <h2>💻 Trabalho de Hoje 💻</h2>
-    <p>Requisitos: </p>
-    <ul>
+    <h2 id="work-title">💻 Trabalho de Hoje 💻</h2>
+    <p id="requirements-title">Requisitos: </p>
+    <ul id="requirements-list">
         <li><a href="https://www.w3schools.com/css/css_font_google.asp" target="_blank">Fontes</a></li>
         <li><a href="https://www.w3schools.com/cssref/pr_font_font-style.php" target="_blank">Estilo de fonte</a></li>
         <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight" target="_blank">Peso da fonte</a></li>
         <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size" target="_blank">Tamanho da fonte</a></li>
     </ul>
 
-
-    <p>Tarefas: </p>
-    <ol>
+    <p id="tasks-title">Tarefas: </p>
+    <ol id="tasks-list">
         <li>Criar arquivo html.</li>
         <li>Estrutura do o elemento html.</li>
         <li>Cria o elemento <code>&lt;h1&gt;</code> no corpo do seu html.</li>
@@ -58,6 +64,53 @@
         <li>Agora coloque uma imagem de fundo, pode fazer as alterações necessárias para deixar tudo isso o mais bonito possível.</li>
     </ol>
 
-    
+    <button class="language-button" onclick="toggleLanguage()">Change Language</button>
+
+    <script>
+        async function translateText(text, targetLang) {
+            const response = await fetch(`https://translation.googleapis.com/language/translate/v2?key=YOUR_API_KEY`, {
+                method: 'POST',
+                body: JSON.stringify({
+                    q: text,
+                    target: targetLang,
+                    format: 'text'
+                }),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            const data = await response.json();
+            return data.data.translations[0].translatedText;
+        }
+
+        async function toggleLanguage() {
+            const currentLanguage = document.documentElement.lang;
+            const newLanguage = currentLanguage === 'pt' ? 'en' : 'pt';
+            document.documentElement.lang = newLanguage;
+
+            const elements = [
+                'welcome',
+                'title',
+                'work-title',
+                'requirements-title',
+                'tasks-title'
+            ];
+
+            for (const id of elements) {
+                const element = document.getElementById(id);
+                element.innerText = await translateText(element.innerText, newLanguage);
+            }
+
+            const requirementsList = document.getElementById('requirements-list').getElementsByTagName('li');
+            for (const item of requirementsList) {
+                item.innerText = await translateText(item.innerText, newLanguage);
+            }
+
+            const tasksList = document.getElementById('tasks-list').getElementsByTagName('li');
+            for (const item of tasksList) {
+                item.innerText = await translateText(item.innerText, newLanguage);
+            }
+        }
+    </script>
 </body>
 </html>

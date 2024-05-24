@@ -50,5 +50,73 @@
 
     <p>Resultado: </p>
   	<img alt="Resultado" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5YT3kTUFOcpg1jysbWGqO92TfYLJ15brixvMCCvfyvVWDpoESsN17NrckEHInOox3CauORtTiz7LHZ8iCb7Il3FNf5RpZ2WURIXgo7SMm2mWdlqZxiL3U7QQs6FmqDiFIVklg9VPL0nDpbXXv1kM4F_7U3W4Fdx08h4a2BObBc6D608d1PIgljO7g/s1600/Turismo.gif"/>
-</body>
+    
+    <script>
+      function toggleLanguage() {
+          const elements = {
+              'welcome': {
+                  pt: 'Doutores da Programação, sejam bem-vindos ao Day 10',
+                  en: 'Programming Doctors, welcome to Day 10'
+              },
+              'title': {
+                  pt: '📱Doutor(a) do Desenvolvimento',
+                  en: '📱Development Doctor'
+              },
+              'work-title': {
+                  pt: '💻 Trabalho de Hoje 💻',
+                  en: '💻 Today\'s Work 💻'
+              },
+              'requirements-title': {
+                  pt: 'Requisitos:',
+                  en: 'Requirements:'
+              },
+              'tasks-title': {
+                  pt: 'Tarefas:',
+                  en: 'Tasks:'
+              },
+              'requirements-list': [
+                  { pt: 'Fontes', en: 'Fonts' },
+                  { pt: 'Estilo de fonte', en: 'Font style' },
+                  { pt: 'Peso da fonte', en: 'Font weight' },
+                  { pt: 'Tamanho da fonte', en: 'Font size' }
+              ],
+              'tasks-list': [
+                    { pt: 'Criar arquivo html.', en: 'Create html file.' },
+                    { pt: 'Estrutura do o elemento html.', en: 'Structure the html element.' },
+                    { pt: 'Cria o elemento <h1> no corpo do seu html.', en: 'Create the <h1> element in the body of your html.' },
+                    { pt: 'Escreva dentro do <h1> “Turismos”.', en: 'Write inside the <h1> “Turismos”.' },
+                    { pt: 'Coloque fonte family Poppins(Google Fonts) no <h1>', en: 'Set font family Poppins (Google Fonts) on <h1>' },
+                    { pt: 'Cria outro elemento <h2> no corpo do seu html.', en: 'Create another <h2> element in the body of your html.' },
+                    { pt: 'Escreva dentro do <h2> “Japão”.', en: 'Write inside the <h2> “Japan”.' },
+                    { pt: 'Cria outro elemento <h2> no corpo do seu html.', en: 'Create another <h2> element in the body of your html.' },
+                    { pt: 'Escreva dentro do <h2> “Espanha”', en: 'Write inside the <h2> “Spain”.' },
+                    { pt: 'Cria outro elemento <h2> no corpo do seu html.', en: 'Create another <h2> element in the body of your html.' },
+                    { pt: 'Escreva dentro do <h2>“Brasil”.', en: 'Write inside the <h2> “Brazil”.' },
+                    { pt: 'Coloque a fonte family Jacquard 12(Google Fonts) no <h2>.', en: 'Set font family Jacquard 12 (Google Fonts) on <h2>.' },
+                    { pt: 'Mudar o tamanho da fonte do <h1> para 85px.', en: 'Change the font size of <h1> to 85px.' },
+                    { pt: 'Mudar o tamanho da fonte do <h2> para 65px.', en: 'Change the font size of <h2> to 65px.' },
+                    { pt: 'Mudar o peso da fonte de todos elementos para 100.', en: 'Change the font weight of all elements to 100.' },
+                    { pt: 'Mude o estilo de fonte de todos elementos para italic.', en: 'Change the font style of all elements to italic.' },
+                    { pt: 'Agora coloque uma imagem de fundo, pode fazer as alterações necessárias para deixar tudo isso o mais bonito possível.', en: 'Now add a background image, make any necessary adjustments to make everything as beautiful as possible.' }
+              ]
+          };
+          const currentLanguage = document.documentElement.lang;
+          const newLanguage = currentLanguage === 'pt' ? 'en' : 'pt';
+          document.documentElement.lang = newLanguage;
+          document.getElementById('welcome').innerText = elements.welcome[newLanguage];
+          document.getElementById('title').innerText = elements.title[newLanguage];
+          document.getElementById('work-title').innerText = elements['work-title'][newLanguage];
+          document.getElementById('requirements-title').innerText = elements['requirements-title'][newLanguage];
+          document.getElementById('tasks-title').innerText = elements['tasks-title'][newLanguage];
+          const requirementsList = document.getElementById('requirements-list').getElementsByTagName('li');
+          elements['requirements-list'].forEach((item, index) => {
+              requirementsList[index].innerText = item[newLanguage];
+          });
+          const tasksList = document.getElementById('tasks-list').getElementsByTagName('li');
+          elements['tasks-list'].forEach((item, index) => {
+              tasksList[index].innerText = item[newLanguage];
+          });
+      }
+    </script>
+</bodY>
 </html>
