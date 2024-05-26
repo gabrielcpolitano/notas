@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+    margin: 0 auto;
+    width: 1000px;
+    align-items: center;
+    margin-bottom: 200px;
+}
+h1 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+h2, h3 {
+    margin:40px 0 10px 0;
+
+}
+
+p {
+    font-size: 25px;
+}
+
+.topicos, img, h1, h2, h3{
+    text-align: center;
+}
+
+.topicos img {
+    padding-bottom: 20px;
+}
+
+.topicos h2 {
+    padding-top: 10px;
+}
+
+.topicos ul{
+    text-align: start;
+    padding: 50px;
+    font-size: 20px;
+    
+}
+
+ul li {
+    padding-top: 10px;
+}
+
+div.topicos {
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #E8E9EB;
+    border-radius: 30px; 
+}
+
+.topicos img {
+    height: 200px;
+
+}
+
