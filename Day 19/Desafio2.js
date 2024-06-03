@@ -10,13 +10,13 @@ function diasMes(mes) {
         case 8:
         case 10:
         case 12:
-            console.log("30 dias")
+            console.log("31 dias")
             break
         case 4:
         case 6:
         case 9:
         case 11:
-            console.log("31 dias")
+            console.log("30 dias")
             break
         default:
             console.log("mês invalido")
