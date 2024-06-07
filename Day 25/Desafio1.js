@@ -1,3 +1,5 @@
-for (let i = 1; i <= 10; i++) {
-    console.log(`5 x ${i}: ${i * 5}`)
+function decrescente(array){
+    return array.sort((a,b) => b - a)
 }
+
+console.log(decrescente([1, 2, 5, 4]))

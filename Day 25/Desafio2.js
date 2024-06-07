@@ -1,11 +1,5 @@
-let numero = 1
-let soma = 0
-
-while (numero <= 100) {
-    console.log(numero);
-
-    soma += numero
-    numero++
+function menor(numero){
+    return Math.min(...numero)
 }
 
-console.log(`Soma de todos os número: ${soma}`)
+console.log(menor([2, 5, 7, 4]))

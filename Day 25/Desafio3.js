@@ -1,8 +1,5 @@
-let numero = 1
+function maior(numero){
+    return Math.max(...numero)
+}
 
-do {
-    if (numero % 2 === 0){
-        console.log(numero)
-    }
-    numero++
-} while (numero <= 100)
+console.log(maior([2, 5, 4, 7, 8, 8]))
